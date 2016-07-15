@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Automatic">
+    <entity name="FlickrPhotoCD" representedClassName="FlickrPhotoCD" syncable="YES">
+        <attribute name="comment" optional="YES" attributeType="String" defaultValueString="COMMENT" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="urlPath" optional="YES" attributeType="String" defaultValueString="URL" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" defaultValueString="Vadim" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FlickrPhotoCD" positionX="-63" positionY="-18" width="128" height="105"/>
+    </elements>
 </model>
